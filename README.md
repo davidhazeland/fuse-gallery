@@ -7,7 +7,7 @@ Library to use the gallery in [Fuse](http://www.fusetools.com/).
 
 Using [fusepm](https://github.com/bolav/fusepm)
 
-    $ fusepm install https://github.com/bolav/fuse-gallery
+    $ fusepm install https://github.com/davidhazeland/fuse-gallery
 
 ## Usage
 

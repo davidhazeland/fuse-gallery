@@ -1,4 +1,4 @@
-<App Theme="Basic">
+<App>
 	<Gallery ux:Global="Gallery" />
 	<JavaScript>
 		var gallery = require('Gallery');
@@ -18,7 +18,7 @@
 	<ClientPanel>
 		<StackPanel>
 			<Text FontSize="32">Gallery example</Text>
-			<Button Text="Load Image" Clicked="{load}" />
+			<Basic.Button Text="Load Image" Clicked="{load}" />
 			<Image File="{image}">
 				<Android>
 					<Rotate Degrees="90" />
@@ -27,4 +27,3 @@
 		</StackPanel>
 	</ClientPanel>
 </App>
-
